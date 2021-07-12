@@ -18,7 +18,7 @@
       .col-4.d-none.d-lg-block.align-self-center
         figure.mb-4
           img(src="@/assets/template/tema-5-2.svg", alt="Texto que describa la imagen")
-    .h4.mb-5 Diseño de arquitectura de información. 
+    .h4.mb-5 Diseño de arquitectura de información
     figure.mb-4
       img(src="@/assets/template/tema-5-3.png", alt="Texto que describa la imagen")
     figcaption.mb-5 Referencia SENA
@@ -63,7 +63,7 @@
     .row.mt-5
       .col-12.col-lg-9
         p.mb-4 Por su parte el Card sorting es una técnica de investigación que permite identificar cómo los usuarios creen que deberían estar organizados los contenidos de un producto digital, por ejemplo: el menú de navegación de un sitio web; aportando información relevante para tomar decisiones sobre la arquitectura de información de un producto #[strong (Torresburriel, 2017).]
-        p Se realiza mediante la participación de un grupo de usuarios objetivo, a quienes se les entrega una serie de tarjetas o Post-it, en las cuales se representan los contenidos (uno a uno) de un producto o servicio, para que sean organizadas y categorizadas de acuerdo con sus criterios y expectativas; también se espera que pueden opinar respecto a la redacción y a los elementos propuestos.
+        p Se realiza mediante la participación de un grupo de usuarios objetivo, a quienes se les entrega una serie de tarjetas o Post-it, en las cuales se representan los contenidos (uno a uno) de un producto o servicio, para que sean organizadas y categorizadas de acuerdo con sus criterios y expectativas; también se espera que puedan opinar respecto a la redacción y a los elementos propuestos.
       .col-3.d-none.d-lg-block.align-self-center
         figure.mb-4
           img(src="@/assets/template/tema-5-8.svg", alt="Texto que describa la imagen")

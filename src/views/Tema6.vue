@@ -124,7 +124,7 @@
           figure
             img(src='@/assets/template/tema-6-9.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
-          p Hace referencia a los requerimientos técnicos que sean necesarios, definición del equipo de trabajo, estructura o interrelación de las páginas en el sitio web, así mismo, estudios de mercadeo. Se incluye también otros aspectos como: selección del software (licenciado), sistemas operativos a usar, editor de páginas web, lenguajes de programación, esquemas de páginas o planos de pantalla, animaciones, entre otros aspectos. Si el sitio web se publica en Internet, debe reservarse el dominio y solicitar el servicio de hospedaje en empresas que prestan estos servicios.
+          p Hace referencia a los requerimientos técnicos que sean necesarios, definición del equipo de trabajo, estructura o interrelación de las páginas en el sitio web, así mismo, estudios de mercadeo. Se incluyen también otros aspectos como: selección del software (licenciado), sistemas operativos a usar, editor de páginas web, lenguajes de programación, esquemas de páginas o planos de pantalla, animaciones, entre otros aspectos. Si el sitio web se publica en Internet, debe reservarse el dominio y solicitar el servicio de hospedaje en empresas que prestan estos servicios.
       .row(numero="c" titulo="Benchmarking: ")
         .col-md-4
           figure

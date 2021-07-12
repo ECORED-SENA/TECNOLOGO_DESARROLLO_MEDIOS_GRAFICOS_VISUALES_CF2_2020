@@ -81,7 +81,7 @@
                       .col-1.text-align-right.p-0
                         i.fas.fa-angle-right.color-c.text-center
                       .col-11
-                        p.mb-2 Valida plazos en los tiempos de ejecución de las tareas y labores estipuladas.
+                        p.mb-2 Válida plazos en los tiempos de ejecución de las tareas y labores estipuladas.
                   li.mb-0.d-block
                     .row
                       .col-1.text-align-right.p-0

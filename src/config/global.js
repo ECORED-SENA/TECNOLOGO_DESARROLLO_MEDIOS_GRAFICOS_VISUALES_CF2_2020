@@ -174,40 +174,75 @@ export default {
     ],
   },
   creditos: {
-    liderEquipo: {
-      nombre: 'Guillermo Eduardo González Tarazona',
-      cargo: 'Instructor ',
-      centro: 'Centro para la Industria de la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital.',
-    },
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
     contenidoInstruccional: [
       {
-        nombre: 'Dayra Maritza Paz Calderón',
-        cargo: 'Diseñadora y Evaluadora Instruccional ',
-        centro: 'Centro de Diseño y Metrología.',
-        regional: 'Regional Distrito Capital.',
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico ',
-        centro: 'Centro de Diseño y Metrología.',
-        regional: 'Regional Distrito Capital.',
+        nombre: 'Diana Patricia Cufiño Parra',
+        cargo: 'Instructora',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jorge Enrique Villafradez Peña',
+        cargo: 'Instructor',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Miroslava González Hernández',
-        cargo: 'Diseñador y evaluador instruccional',
-        centro: 'Centro Gestión Industrial.',
-        regional: 'Regional Distrito Capital.',
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      /*{
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },*/
+      {
+        nombre: 'Veimar Celis Mélendez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },

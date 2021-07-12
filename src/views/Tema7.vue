@@ -11,7 +11,7 @@
     .row.mt-5
       .col-12.col-lg-8.align-self-center
         p La diagramación o maquetación es el proceso mediante el cual se organizan textos, imágenes, en algunos casos medios audiovisuales, entre otros, dentro de un espacio determinado. Estos elementos pueden ser organizados para productos impresos o electrónicos, como libros, revistas, diarios, entre otros.  
-        p.mt-4 En este paso es de importancia utilizar los flujogramas que ayudan a maquetar la representación de la estructura, partes, funcionamiento y comportamiento en general, del sitio a desarrollar, perfilado por una línea de diseño, basado en la organización y la estructuración visual de sus componentes.
+        p.mt-4 En este paso es de gran importancia utilizar los flujogramas que ayudan a maquetar la representación de la estructura, partes, funcionamiento y comportamiento en general, del sitio a desarrollar, perfilado por una línea de diseño, basado en la organización y la estructuración visual de sus componentes.
       .col-6.col-lg-4.offset-3.offset-3.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-7-2.svg", alt="Texto")
@@ -127,7 +127,7 @@
     .h4.mt-5 El guión literario
     .row.mt-4
       .col-12.col-lg-9.align-self-center
-        p El guion literario es una herramienta secuencial en el desarrollo de productos multimedia, está enmarcada en el diseño mismo de aplicabilidad, en la creación y concepto del producto.  Se necesita un guion literario para describir paso a paso el contenido total de un proyecto, que exprese en forma detallada lo que se quiere transmitir; es decir, el mensaje, por lo que es preciso investigar y preparar la historia. Describe las diversas situaciones, los diálogos y las acciones en la historia a contar. Este guion podrá ser de ficción o realidad; en esta última clasificación, se encuentran los guiones informativos, los de formación y de opinión, los cuales sirven para evitar incongruencias, nerviosismo, titubeos, coletillas, etc.; enfocándose en el tema y logrando precisión en el desarrollo de la historia. 
+        p El guion literario es una herramienta secuencial en el desarrollo de productos multimedia, está enmarcada en el diseño mismo de aplicabilidad, en la creación y concepto del producto.  Se necesita un guion literario para describir paso a paso el contenido total de un proyecto, que exprese en forma detallada lo que se quiere transmitir; es decir, el mensaje, por lo que es preciso investigar y preparar la historia. Describe las diversas situaciones, los diálogos y las acciones en la historia a contar. Este guion podrá ser de ficción o realidad; en esta última clasificación, se encuentran los guiones informativos, los de formación y de opinión, los cuales sirven para evitar incongruencias, nerviosismo, titubeos, muletillas, etc.; enfocándose en el tema y logrando precisión en el desarrollo de la historia. 
       .col-6.offset-3.col-lg-3.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-7-18.svg"  alt="Texto").w-75
@@ -236,9 +236,9 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 .h5 Paso 1. Determinar métricas y crear análisis de tareas 
-                p Se delimitan las pruebas mediante el uso de métricas que midan los factores en pro y en contra referentes a la usabilidad, eficacia y eficiencia de los componentes de un proyecto.  Aquí hay medición de objetivos dirigidos al usuario, manejo de ruta y análisis de tareas de los componentes entre otras.  Se construye un flujograma de tareas, con tiempos y acciones a trabajar. 
+                p Se delimitan las pruebas mediante el uso de métricas que midan los factores en pro y en contra referentes a la usabilidad, eficacia y eficiencia de los componentes de un proyecto.  Aquí hay medición de objetivos dirigidos al usuario, manejo de ruta y análisis de tareas de los componentes, entre otras.  Se construye un flujograma de tareas, con tiempos y acciones a trabajar. 
     .h5.mt-4 Paso 2. Identificar el mejor tipo de prueba
-    p.mt-5 Existen variadas formas en cuanto a las pruebas de usabilidad; la utilización de determinada forma de prueba depende del sitio web en cuanto a las métricas y a las tareas definidas en la primera etapa. Hay tres tipos de pruebas de usabilidad que son los más utilizadas:
+    p.mt-5 Existen variadas formas en cuanto a las pruebas de usabilidad; la utilización de determinada forma de prueba depende del sitio web en cuanto a las métricas y a las tareas definidas en la primera etapa. Hay tres tipos de pruebas de usabilidad que son las más utilizadas:
     .row.mt-5.mb-3 
       .col-10.offset-1
         .cajon.color-secundario.bg-secundario-op40.px-5.py-4.mb-4
@@ -253,7 +253,7 @@
                     li 
                       .lista-ol--cuadro__vineta
                         span a
-                      p Clasificación de tarjetas o el llamado Card sorting, es la prueba más fácil y rápida. Esta técnica se basa en la experiencia del usuario digital para calificar la taxonomía del producto digital. En un punto anterior, se realizó una descripción más amplia de esta técnica
+                      p La clasificación de tarjetas o el llamado Card sorting, es la prueba más fácil y rápida. Esta técnica se basa en la experiencia del usuario digital para calificar la taxonomía del producto digital. En un punto anterior, se realizó una descripción más amplia de esta técnica
     .row.mb-3 
       .col-10.offset-1
         .cajon.color-secundario.bg-secundario-op25.px-5.py-4.mb-4
@@ -268,7 +268,7 @@
                     li 
                       .lista-ol--cuadro__vineta
                         span b
-                      p Estudio de campo o investigación contextual, las pruebas de usabilidad necesitan más tiempo que la clasificación de tarjetas y consiste en ir directamente al contexto real de sus usuarios; es decir, donde ellos probablemente usen su sitio web y mediante una entrevista no tan formal, se les pide que indiquen cómo realizan el proceso mientras interactúan con la pantalla. Hay retroalimentación directa del usuario lo cual es una gran ventaja; aunque en ocasiones el estudio de campo puede hacerse virtualmente, al aparecer resta espontaneidad al usuario.
+                      p Estudio de campo o investigación contextual, las pruebas de usabilidad necesitan más tiempo que la clasificación de tarjetas y consiste en ir directamente al contexto real de sus usuarios; es decir, donde ellos probablemente usen su sitio web y mediante una entrevista no tan formal, se les pide que indiquen cómo realizan el proceso mientras interactúan con la pantalla. Hay retroalimentación directa del usuario, lo cual es una gran ventaja; aunque en ocasiones el estudio de campo puede hacerse virtualmente, al aparecer resta espontaneidad al usuario.
     .row.mb-3 
       .col-10.offset-1
         .cajon.color-secundario.bg-secundario-op10.px-5.py-4.mb-4
