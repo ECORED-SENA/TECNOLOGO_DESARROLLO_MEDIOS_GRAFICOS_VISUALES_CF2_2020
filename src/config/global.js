@@ -189,16 +189,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Diana Patricia Cufiño Parra',
-        cargo: 'Instructora',
+        nombre: 'Guillermo Eduardo González Tarazona',
+        cargo: 'Instructor',
         centro:
           'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
       },
       {
-        nombre: 'Jorge Enrique Villafradez Peña',
-        cargo: 'Instructor',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+        nombre: 'Dayra Maritza Paz Calderón',
+        cargo: 'Diseñadora y Evaluadora Instruccional',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro: 'Centro Gestión Industrial – Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -220,17 +229,26 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: [
+          'Zuleidy María Ruiz Torres',
+          'Wilson Andrés Arenales Cáceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Nelson Iván Vera Briceño',
+          'María Carolina Tamayo Lopez',
+          'Laura Gisselle Murcia Pardo',
+          'José Jaime Luis Tang Pinzón',
+        ],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Lizeth Karina Manchego Suárez',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      /*{
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },*/
+
       {
         nombre: 'Veimar Celis Mélendez',
         cargo: 'Validación de diseño y contenido',
