@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.mb-5
+    .titulo-principal
       .titulo-principal__numero
         span 2
       h1 Tipología epub
@@ -81,16 +81,22 @@
         img(src="@/assets/template/tema-2-9.svg", alt="Texto que describa la imagen")
     figcaption Referencia SENA
     p.mt-4 Otros formatos que puede encontrar son: mobi, oeb, opf, prc, rtf. Sobre los cuales se recomienda su consulta; en el material complementario, encontrará información adicional para profundizar en el tema. 
-    
 
 </template>
 
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    // variables de vue
-  }),
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

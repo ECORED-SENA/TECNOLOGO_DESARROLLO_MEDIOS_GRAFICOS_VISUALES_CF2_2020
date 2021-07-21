@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 5
       h1 Arquitectura de información, Card sorting
-    
     figure.mb-5
       img(src="@/assets/template/tema-5-1.png", alt="Texto que describa la imagen")
     p.mb-4 La arquitectura de la información va muy ligada al concepto UX y se puede definir como la organización de todas las partes de algo, para que sea lo más comprensible posible.
@@ -269,18 +268,23 @@
                 img(src="@/assets/template/tema-5-30.svg", alt="Texto que describa la imagen").w-50
             td.text-center Decisión
             td Sirve para evaluar cualquier tipo de información con un criterio verdadero o falso.
+ 
+
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
-  name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  name: 'Tema5',
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
   },
-  data: () => ({
-    // variables de vue
-  }),
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

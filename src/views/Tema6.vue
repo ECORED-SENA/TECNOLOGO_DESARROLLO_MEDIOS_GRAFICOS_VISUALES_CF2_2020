@@ -252,19 +252,23 @@
       img(src="@/assets/template/tema-6-27.png" alt="Texto")
     figcaption.mt-4 Referencia  Sena
 
+    
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
-  name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  name: 'Tema6',
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
   },
-  data: () => ({
-    // variables de vue
-  }),
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

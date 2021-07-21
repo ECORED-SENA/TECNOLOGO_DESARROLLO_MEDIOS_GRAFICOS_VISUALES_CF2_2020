@@ -95,19 +95,23 @@
                       .col-11
                         p.mb-2 Tiene en cuenta el feedbacks o retroalimentación de los clientes con la empresa y de los integrantes de los equipos de trabajo.
 
+ 
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema4',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
   },
-  data: () => ({
-    // variables de vue
-  }),
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

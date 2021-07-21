@@ -8,7 +8,6 @@
         span
           i.fas.fa-info
       h1 Introducción
-    
     figure.mb-5
       img(src="@/assets/template/tema-0-1.png", alt="Texto que describa la imagen")
     

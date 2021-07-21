@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 7
-      h1 Diagramación de la arquitectura de información 
+      h1 Diagramación de la arquitectura de información
     figure
       img(src="@/assets/template/tema-7-1.png", alt="Texto")
     .row.mt-5
@@ -305,17 +305,14 @@
       .col-6.offset-3.offset-lg-0.align-self-center
         img(src="@/assets/template/tema-7-33.png", alt="Texto")
 
-
+   
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
-  name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  name: 'Tema7',
+  components: {},
   data: () => ({
     datosSlyder: [
       {
@@ -349,6 +346,14 @@ export default {
       },
     ],
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

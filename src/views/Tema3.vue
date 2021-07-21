@@ -2,10 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.mb-5
-        .titulo-principal__numero
-          span 3
-        h1 E-books, e-magazine, presentaciones, catálogos, e-card
+    .titulo-principal
+      .titulo-principal__numero
+        span 3
+      h1 E-books, e-magazine, presentaciones, catálogos, e-card
     figure.mb-5
       img(src="@/assets/template/tema-3-1.png", alt="Texto que describa la imagen")
     p.mb-5 Muchas de las publicaciones que se conocen en la era de la impresión, como libros, revistas, catálogos, entre otros, han migrado sus componentes al ámbito digital, conservando muchas de sus características esenciales y desarrollando otras funcionalidades que permiten una mayor interactividad por parte del usuario. 
@@ -266,12 +266,12 @@
 
 
 
-
 </template>
 
 <script>
 export default {
   name: 'Tema3',
+  components: {},
   data: () => ({
     datosSlyder: [
       {
@@ -294,6 +294,14 @@ export default {
       },
     ],
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
