@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Cálculo y medición de magnitudes eléctricas y electrónicas',
+    componenteFormativo: 'Conceptualización y metodologías epub',
     descripcionCurso:
-      'Comprender las magnitudes eléctricas permite tener un acercamiento al mundo de la electrónica; tal como un electrón cruza a través de los conductores, encontrando resistencia y transportando la corriente eléctrica, alimentándose del voltaje, y permitiendo la energía para que el circuito eléctrico tenga la potencia de trabajo. ',
+      'El diseño editorial no solo se enfoca en la creación de contenidos impresos, sino también digitales, que se adaptan para posibilitar la lectura en diversos dispositivos; por ello, es de gran utilidad comprender en qué consiste la diagramación, que dependerá de los diferentes tipos de productos.  El epub es uno de los formatos más utilizados para la publicación de libros electrónicos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -24,29 +23,14 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Mediciones de acuerdo con procedimientos técnicos y especificaciones del fabricante',
+        titulo: 'Evolución histórica del libro',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Mediciones e instrumentos de medición',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Magnitudes eléctricas y electrónicas',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Protocolos de pruebas',
+        titulo: 'Tipología epub',
         desarrolloContenidos: true,
         subMenu: [],
       },
